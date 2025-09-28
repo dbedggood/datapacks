@@ -1,1 +1,1 @@
-{ "values": ["explode:load"] }
+{ "values": ["explode:load", "misc:load", "punish:load"] }

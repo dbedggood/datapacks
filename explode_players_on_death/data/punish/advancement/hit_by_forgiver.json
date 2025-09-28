@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "hit_by_player_with_golden_helmet": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": ["minecraft:carved_pumpkin"]
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "minecraft:player",
+              "equipment": {
+                "head": {
+                  "items": ["minecraft:golden_helmet"]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "punish:forgive"
+  }
+}

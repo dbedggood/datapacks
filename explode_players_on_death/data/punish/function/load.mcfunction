@@ -1,0 +1,3 @@
+gamerule keepInventory true
+scoreboard objectives add shouldPunish deathCount
+scoreboard objectives add timeSinceDeath minecraft.custom:minecraft.time_since_death
